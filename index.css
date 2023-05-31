@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+p, h1 {
+    font-family: 'Cairo Play', sans-serif;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+article > h1 {
+    text-align: center;
+    border-bottom: 1px solid #c8c8c8;
+}
+
+article > section > p {
+    margin: 0;
+    font-variant: small-caps;
+    padding: 0 25px;
+    color: #5d5d5d;
+    font-weight: 400;
+}
+
+article > section > p::first-letter {
+    font-weight: bold;
+    color: #54425b;
+}
